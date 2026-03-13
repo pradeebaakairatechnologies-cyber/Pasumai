@@ -1,0 +1,17 @@
+/* Orange, Green, White Color Scheme */
+.custom_btn { background: #e66c08 !important; }
+.banner_title .second, .banner_title font { color: #e66c08 !important; }
+.banner_title2 .second, .banner_title2 font { color: #e66c08 !important; }
+.banner_title4 .second, .banner_title4 font { color: #e66c08 !important; }
+.header_top_socials i:hover { color: #e66c08 !important; }
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover { color: #e66c08 !important; }
+.navbar_user_icon .fa-shopping-bag { background-color: #e66c08 !important; }
+.main_menu_list > li:hover > a, .main_menu_list > li.active > a { color: #e66c08 !important; }
+.navbar_user_icon .fa-search, .navbar_user_icon .fa-times { color: #e66c08 !important; border-color: #e66c08 !important; }
+.product_action_btns a:hover { background-color: #e66c08 !important; }
+.btn_coupon { background-color: #e66c08 !important; }
+.product_badge_group .badge_discount { background-color: #e66c08 !important; }
+.product_price .sale_price { color: #e66c08 !important; }
+.footer_top_subs button { background-color: #e66c08 !important; }
+.top_header_main { background-color: #e66c08 !important; }
+.backtotop .scroll { color: #e66c08 !important; }
