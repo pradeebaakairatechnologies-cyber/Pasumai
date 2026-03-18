@@ -4423,15 +4423,15 @@ input[type=text]:focus {
   z-index: -1;
 }
 .nav_item_has_child .nav_item_submenu {
-  top: 64px;
-  left: -138px;
+  top: 100%;
+  left: 0;
   min-width: 370px;
   min-height: 425px;
-  position: fixed;
+  position: absolute;
   z-index: 99999;
   display: none;
-  -webkit-transform: translateY(50px);
-          transform: translateY(50px);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   background-size: cover;
