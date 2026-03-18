@@ -4428,6 +4428,7 @@ input[type=text]:focus {
   min-width: 370px;
   min-height: 425px;
   position: fixed;
+  z-index: 99999;
   display: none;
   -webkit-transform: translateY(50px);
           transform: translateY(50px);
