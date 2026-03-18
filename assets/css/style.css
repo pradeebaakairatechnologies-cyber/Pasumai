@@ -22,16 +22,7 @@ body {
   position: relative;
 }
 
-::-moz-selection {
-  color: #ffffff;
-  background-color: #000000;
-}
-
-::selection {
-  color: #ffffff;
-  background-color: #000000;
-}
-
+::selection,
 ::-moz-selection {
   color: #ffffff;
   background-color: #000000;
@@ -2770,53 +2761,6 @@ p {
 }
 .billing_payment_mathod .custom_btn {
   width: 100%;
-}
-
-.billing_form .form_title {
-  font-size: 24px;
-}
-.billing_form .form_wrap {
-  padding: 60px;
-  border: 2px solid #e6e6e6;
-}
-.billing_form .form_item {
-  padding-left: 180px;
-}
-.billing_form .form_item .input_title {
-  top: 6px;
-  left: 0px;
-  font-size: 18px;
-  max-width: 170px;
-  position: absolute;
-  color: black;
-}
-.billing_form .form_item .input_title sup {
-  top: -2px;
-  color: #81c408;
-}
-.billing_form .form_item input {
-  height: 40px;
-  padding: 0px;
-  border: none;
-  border-radius: 0px;
-  border-bottom: 2px solid #e6e6e6;
-}
-.billing_form .form_item input:focus {
-  border-color: #81c408;
-}
-.billing_form .form_item textarea {
-  padding: 0px;
-  border: none;
-  min-height: 70px;
-  border-radius: 0px;
-  border-bottom: 2px solid #e6e6e6;
-}
-.billing_form hr {
-  height: 2px;
-}
-
-.billing_form.checkbox_item {
-  padding-left: 180px;
 }
 
 .checkout_table .item_image.item_image {
