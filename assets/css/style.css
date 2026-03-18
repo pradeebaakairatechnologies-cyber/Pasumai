@@ -18,7 +18,7 @@ body {
 }
 
 .body_wrap {
-  overflow: hidden;
+  overflow: visible;
   position: relative;
 }
 
