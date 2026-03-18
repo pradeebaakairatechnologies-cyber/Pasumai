@@ -3332,7 +3332,7 @@ p {
   left: 0px;
   right: 0px;
   z-index: 9999;
-  position: relative;
+  position: sticky;
   background-color: #ffffff;
   max-width: 100%;
   height: auto;
