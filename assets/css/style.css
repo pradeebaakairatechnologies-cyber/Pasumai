@@ -10676,3 +10676,17 @@ input[type=text]:focus {
    height: 100%;
    min-height: 100%;
 }
+
+/* Produce Category - Images fill circle container fully */
+.produce_category_section .prdc_ctg_product_img {
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.produce_category_section .prdc_ctg_product_img img {
+   width: 100% !important;
+   height: 100% !important;
+   object-fit: cover !important;
+   border-radius: 100%;
+}
