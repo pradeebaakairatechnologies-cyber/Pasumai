@@ -4999,6 +4999,24 @@ input[type=text]:focus {
   padding: 0.2rem 0.5rem;
   font-weight: 500;
 }
+.product_badge_group .badge_new {
+  top: 25px;
+  right: 25px;
+  color: #ffffff;
+  font-size: 0.7rem;
+  background-color: #81c408;
+  padding: 0.2rem 0.5rem;
+  font-weight: 700;
+}
+.product_badge_group .badge_sale {
+  top: 25px;
+  right: 25px;
+  color: #ffffff;
+  font-size: 0.7rem;
+  background-color: #81c408;
+  padding: 0.2rem 0.5rem;
+  font-weight: 700;
+}
 
 .product_title {
   -webkit-transition: 0.4s cubic-bezier(0.25, 1, 0.5, 1);
@@ -5055,6 +5073,7 @@ input[type=text]:focus {
   padding: 0.5rem;
   background-color: #7cc000;
   border-radius: 100%;
+ 
 }
 
 .product_ctg_items_title h5 {
@@ -10690,3 +10709,6 @@ input[type=text]:focus {
    object-fit: cover !important;
    border-radius: 100%;
 }
+
+/* Hide hover search icon on product cards */
+.product_section .product_action_btns { display: none !important; }
