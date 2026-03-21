@@ -10655,3 +10655,24 @@ input[type=text]:focus {
         width: 155px;
     }
 }
+
+/* Produce Category Section - Equal Height Left & Right */
+.produce_category_section .prdc_ctg_wrap .row.align-items-stretch {
+   align-items: stretch !important;
+}
+.produce_category_section .prdc_ctg_content_wrap.h-100 {
+   height: 100% !important;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.produce_category_section .tab-content.h-100 {
+   height: 100% !important;
+}
+.produce_category_section .tab-content.h-100 .tab-pane {
+   height: 100%;
+}
+.produce_category_section .prdc_ctg_inner_product {
+   height: 100%;
+   min-height: 100%;
+}
