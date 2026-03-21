@@ -10730,15 +10730,9 @@ input[type=text]:focus {
   position: absolute;
   inset: -50%;
   background: conic-gradient(transparent 60%, #ffffff 70%, #81c408 80%, #a8e63d 90%, transparent 100%);
-  opacity: 0;
-  transition: opacity 0.3s ease;
+  animation: rotate_shine 2s linear infinite;
   z-index: 0;
   border-radius: 0;
-}
-
-.product_section .product_layout_1:hover::before {
-  opacity: 1;
-  animation: rotate_shine 2s linear infinite;
 }
 
 .product_section .product_layout_1 .product_layout_content {
