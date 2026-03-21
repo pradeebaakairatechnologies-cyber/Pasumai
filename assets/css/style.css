@@ -10714,21 +10714,18 @@ input[type=text]:focus {
 .product_section .product_action_btns { display: none !important; }
 
 /* Our Products — shining border effect on hover */
-@keyframes shine_border {
-  0%   { box-shadow: 0 0 6px 2px rgba(100, 200, 80, 0.4); }
-  25%  { box-shadow: 0 0 12px 4px rgba(60, 180, 60, 0.7); }
-  50%  { box-shadow: 0 0 18px 6px rgba(120, 220, 50, 0.9); }
-  75%  { box-shadow: 0 0 12px 4px rgba(60, 180, 60, 0.7); }
-  100% { box-shadow: 0 0 6px 2px rgba(100, 200, 80, 0.4); }
+@keyframes shine_rotate {
+  0%   { box-shadow: 0 0 8px 3px #81c408, 0 0 20px 6px rgba(129,196,8,0.4); }
+  25%  { box-shadow: 0 0 12px 5px #a8e63d, 0 0 30px 10px rgba(168,230,61,0.5); }
+  50%  { box-shadow: 0 0 18px 7px #ffffff, 0 0 40px 14px rgba(255,255,255,0.3), 0 0 8px 3px #81c408; }
+  75%  { box-shadow: 0 0 12px 5px #a8e63d, 0 0 30px 10px rgba(168,230,61,0.5); }
+  100% { box-shadow: 0 0 8px 3px #81c408, 0 0 20px 6px rgba(129,196,8,0.4); }
 }
 
-.product_section .product_layout_content {
-  border: 2px solid transparent;
-  border-radius: 8px;
-  transition: border-color 0.3s ease;
+.product_section .product_layout_1 {
+  transition: box-shadow 0.3s ease;
 }
 
-.product_section .product_layout_content:hover {
-  border-color: #5cb85c;
-  animation: shine_border 1.5s ease-in-out infinite;
+.product_section .product_layout_1:hover {
+  animation: shine_rotate 1.8s ease-in-out infinite;
 }
