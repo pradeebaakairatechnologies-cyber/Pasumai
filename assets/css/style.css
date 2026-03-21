@@ -1804,9 +1804,22 @@ p {
 }
 
 .breadcrumb_wrap {
+  position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  z-index: 1;
+}
+.breadcrumb_wrap::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.6;
+  z-index: -1;
 }
 
 .breadcrumb_title h2 {
@@ -1817,20 +1830,21 @@ p {
 .breadcrumb_item li {
   font-size: 18px;
   font-weight: 500;
+  color: #e66c08;
 }
 .breadcrumb_item li a {
-  color: #ffffff;
+  color: #e66c08;
 }
 .breadcrumb_item li:not(:last-child) {
   margin-right: 10px;
 }
 .breadcrumb_item i {
-  color: #505050;
+  color: #e66c08;
   margin-right: 20px;
 }
 .breadcrumb_item i.active {
-  color: #9fcb22;
-  border: 3px solid #9fcb22;
+  color: #e66c08;
+  border: 3px solid #e66c08;
   padding: 7px;
   border-radius: 100%;
 }
@@ -3077,8 +3091,7 @@ p {
 .footer_inner_ctc_title h4 a {
   font-size: 1.25rem;
   font-weight: 700;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration: none !important;
 }
 
 .footer_inner_choose_desc p {

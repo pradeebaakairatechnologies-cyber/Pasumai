@@ -1,0 +1,6 @@
+Golden Kiwi: 3
+Green Kiwi: 3
+Blueberry: 3
+Red Cherry: 3
+Longan: 3
+Mandarin Orange: 3
